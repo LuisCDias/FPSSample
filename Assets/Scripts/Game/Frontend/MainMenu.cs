@@ -61,7 +61,6 @@ public class MainMenu : MonoBehaviour
         uiBinding.gamemode.RefreshShownValue();
 
         uiBinding.levelname.options.Clear();
-        uiBinding.levelname.options.Add(new TMPro.TMP_Dropdown.OptionData("Level_01"));
         uiBinding.levelname.options.Add(new TMPro.TMP_Dropdown.OptionData("Level_00"));
         uiBinding.levelname.RefreshShownValue();
 

@@ -62,6 +62,7 @@ public class MainMenu : MonoBehaviour
 
         uiBinding.levelname.options.Clear();
         uiBinding.levelname.options.Add(new TMPro.TMP_Dropdown.OptionData("Level_00"));
+        uiBinding.levelname.options.Add(new TMPro.TMP_Dropdown.OptionData("Level_Office"));
         uiBinding.levelname.RefreshShownValue();
 
         uiBinding.maxplayers.options.Clear();

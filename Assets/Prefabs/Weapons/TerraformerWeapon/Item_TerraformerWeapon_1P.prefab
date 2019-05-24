@@ -86,7 +86,7 @@ MonoBehaviour:
   vents: []
   ventDampSpeed: 5
   ventStartSpeed: 1000
-  primaryFireSound: {fileID: 11400000, guid: e8d780ba78fc3ca488cb5e097a3f3877, type: 2}
+  primaryFireSound: {fileID: 11400000, guid: 0358fec4603565b4b827a089400b35e9, type: 2}
   primaryMuzzleFlash: {fileID: 1338939050945843367}
   hitscanEffect: {fileID: 11400000, guid: 0535d66d5ba94b442bb4a6824f0dcfd0, type: 2}
   environmentImpactEffect: {fileID: 11400000, guid: 7942eed226c6d424596134d04568620f,
@@ -187,7 +187,7 @@ Transform:
 --- !u!199 &4302442505872242036
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4973,7 +4973,7 @@ Transform:
 --- !u!199 &1999115351268857355
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10003,7 +10003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 9a473cf544f5f0842badbe82cb09097d, type: 3}
       propertyPath: skeletonColor.b
-      value: 0.49299288
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 9a473cf544f5f0842badbe82cb09097d, type: 3}
       propertyPath: skeletonColor.g
@@ -10105,6 +10105,10 @@ PrefabInstance:
       propertyPath: bones.Array.data[23]
       value: 
       objectReference: {fileID: 2623461487636665554}
+    - target: {fileID: 11400000, guid: 9a473cf544f5f0842badbe82cb09097d, type: 3}
+      propertyPath: skeletonColor.r
+      value: 0.46438575
+      objectReference: {fileID: 0}
     - target: {fileID: 400062, guid: 9a473cf544f5f0842badbe82cb09097d, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
